@@ -3,7 +3,7 @@ from setuptools import setup
 APP = ['pokegostatus.py']
 DATA_FILES = ['icons']
 OPTIONS = {
-    'iconfile':'appicon.icns',
+    'iconfile':'icons/appicon.icns',
     'argv_emulation': True,
     'plist': {
         'LSUIElement': True,
