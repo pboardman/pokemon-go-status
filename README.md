@@ -4,6 +4,11 @@ Check the status of the Pokemon GO servers from your Menubar (MacOS only)
 
 ![Demo](demo.png)
 
+color code: <br/>
+- green: server up<br/>
+- orange: server unstable<br/>
+- red: server down<br/>
+
 ## Installation
 
 Just download ``` Pokemon.GO.Status.app.zip ``` from the [release page](https://github.com/Lacsap-/pokemon-go-status/releases/tag/0.1), unzip it, put it in your application folder and launch it!
