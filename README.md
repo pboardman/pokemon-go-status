@@ -1,4 +1,4 @@
-# Pokemon GO server status
+# Pokemon GO servers status
 
 Check the status of the Pokemon GO servers from your Menubar (MacOS only)
 
