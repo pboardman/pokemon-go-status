@@ -11,8 +11,16 @@ class pokegostatus(rumps.App):
     def manual_refresh(self, _):
         self.refresh(self)
 
+    @rumps.clicked("Black icons")
+    def black_icons(self, _):
+        self.refresh(self, "b")
+
+    @rumps.clicked("White icons")
+    def black_icons(self, _):
+        self.refresh(self, "w")
+
     @rumps.timer(10)
-    def refresh(self, _):
+    def refresh(self, _, icons="b"):
         URL = "http://cmmcd.com/PokemonGo/"
 
         try:
@@ -23,13 +31,13 @@ class pokegostatus(rumps.App):
             status = False
 
         if status == 'Online!':
-            self.icon = "icons/pokeok.png"
+            self.icon = "icons/%s/pokeok.png" % icons
             self.title = None
         elif status == 'Unstable!':
-            self.icon = "icons/pokeunstable.png"
+            self.icon = "icons/%s/pokeunstable.png" % icons
             self.title = None
         elif status == 'Offline!':
-            self.icon = "icons/pokedown.png"
+            self.icon = "icons/%s/pokedown.png" % icons
             self.title = None
         elif not status:
             self.icon = None
@@ -37,4 +45,4 @@ class pokegostatus(rumps.App):
 
 
 if __name__ == "__main__":
-    pokegostatus("pokegostatus", icon="icons/pokeinit.png").run()
+    pokegostatus("pokegostatus", icon="icons/b/pokeinit.png").run()
