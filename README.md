@@ -14,7 +14,7 @@ To switch between black/white icons, use the menu items by clicking the icon.
 
 ## Installation
 
-Just download `Pokemon.GO.Status.app.zip` from the [release page](https://github.com/Lacsap-/pokemon-go-status/releases/tag/0.1), unzip it, put it in your application folder and launch it!
+Just download `Pokemon.GO.Status.app.zip` from the [release page](https://github.com/Lacsap-/pokemon-go-status/releases/latest), unzip it, put it in your application folder and launch it!
 
 Optionally you can launch it on startup start by going in your mac setting under `Users & Groups` and dragging the application in your `login items`.
 
