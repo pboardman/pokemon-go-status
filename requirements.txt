@@ -2,3 +2,4 @@ bs4
 requests
 rumps
 py2app
+pyobjc

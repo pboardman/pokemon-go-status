@@ -27,3 +27,11 @@ Optionally you can launch it on startup start by going in your mac setting under
 - Build the .app
 
 ``` python setup.py py2app ```
+
+note: Some peoples get errors when building the app with py2app,
+if you do, try following the instruction in this
+[link](http://stackoverflow.com/questions/25394320/py2app-modulegraph-missing-scan-code/29449144#29449144)
+
+## Credit
+
+The pokeball status icons were made by: [omgomg](https://github.com/omgmog)
